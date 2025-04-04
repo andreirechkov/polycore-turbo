@@ -59,9 +59,9 @@ This is a scalable and flexible monorepo starter architecture for building produ
 polycore-turbo/
 ├── apps/
 │   ├── api-gateway/         # NestJS API Gateway
-│   ├── nextjs-app/          # Next.js frontend
-│   ├── angular-app/         # Angular frontend
-│   └── vue-app/             # Vue frontend
+│   ├── nextjs-version-developer-name-app/          # Next.js frontend
+│   ├── angular-version-developer-name-app/         # Angular frontend
+│   └── vue-version-developer-name-app/            # Vue frontend
 │
 ├── services/
 │   ├── user/                # NestJS + Prisma service
