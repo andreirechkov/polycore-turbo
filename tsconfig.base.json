@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@proto/*": ["libs/proto/*"],
+      "@prisma/*": ["libs/prisma/*"],
+      "@shared/*": ["libs/shared/*"],
+      "@types/*": ["libs/types/*"],
+      "@logger/*": ["libs/logger/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
