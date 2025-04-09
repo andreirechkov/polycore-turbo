@@ -24,3 +24,12 @@ ps:
 
 prisma-generate:
 	pnpm prisma generate --schema=libs/prisma/schema.prisma
+
+api-gateway:
+	pnpm --filter api-gateway dev
+
+user-service:
+	pnpm --filter user-service dev
+
+dev:
+	docker compose up -d && pnpm --filter api-gateway dev & pnpm --filter user-service dev
