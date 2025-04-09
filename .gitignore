@@ -47,3 +47,6 @@ jest.config.ts
 # Misc
 *.local
 *.swp
+
+# Prisma (ORM)
+libs/prisma/generated/
